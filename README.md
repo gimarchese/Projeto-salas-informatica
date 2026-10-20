@@ -1,14 +1,17 @@
-# Projeto Salas de Informática
+# Sistema de Salas
 
-Este é um projeto desenvolvido em C++ utilizando o ambiente de desenvolvimento Code::Blocks.
+Sistema desenvolvido em C++ a partir de um problema real identificado durante meu estágio, com foco no gerenciamento de salas, reservas de horários e controle dos computadores.
 
-## 📌 Sobre o Projeto
-O objetivo deste programa é realizar a gestão e organização das salas de informática, permitindo o controle de dados e recursos das salas.
+A aplicação permite consultar a disponibilidade das salas, gerenciar reservas e acompanhar o estado dos computadores por meio de um menu interativo no terminal.
 
-## 🛠️ Tecnologias Utilizadas
-* **Linguagem:** C++
-* **IDE:** Code::Blocks
+## Funcionalidades
 
-## 📂 Como executar o projeto
-1. O arquivo principal com o código-fonte está no `main.cpp`.
-2. Para abrir o projeto completo no Code::Blocks, basta abrir o arquivo `Projeto Salas Informatica.cbp`.
+- **Consulta de horários:** visualização da programação semanal de cada sala, incluindo horários livres, reservados e aulas fixas.
+- **Gerenciamento de reservas:** cadastro e remoção de reservas de horários.
+- **Aulas fixas:** gerenciamento de aulas recorrentes previamente cadastradas, com acesso protegido por senha para permitir alterações.
+- **Controle de computadores:** acompanhamento dos computadores de cada sala, incluindo o registro de equipamentos com defeito ou em manutenção.
+
+## Ferramentas
+
+- C++
+- Code::Blocks
