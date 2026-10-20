@@ -1,6 +1,6 @@
 # Sistema de Salas
 
-Sistema desenvolvido em C++ a partir de um problema real identificado durante meu estágio, com foco no gerenciamento de salas, reservas de horários e controle dos computadores.
+Sistema desenvolvido em C++ a partir de um problema real identificado durante meu estágio de TI, com foco no gerenciamento de salas, reservas de horários e controle dos computadores.
 
 A aplicação permite consultar a disponibilidade das salas, gerenciar reservas e acompanhar o estado dos computadores por meio de um menu interativo no terminal.
 
