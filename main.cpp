@@ -1,3 +1,24 @@
+// ============================================================
+// Sistema de Salas - agendamento de salas da escola (console)
+//
+// Autor: Giovani Marconcini Marchese
+// Linguagem: C++ (IDE: Code::Blocks)
+//
+// O que faz:
+//   - Consulta a grade semanal (5 dias x 9 aulas) de 3 salas:
+//     Leitura, Reuniao e Informatica
+//   - Agenda e remove reservas de horarios
+//   - Gerencia aulas fixas (acesso protegido por senha)
+//   - Controla computadores com defeito, que limitam a
+//     quantidade de alunos por aula
+//
+// Observacoes:
+//   - Usa system("cls") e system("pause"), entao funciona no Windows
+//   - Os nomes de professores sao ficticios
+//   - A senha das aulas fixas (1234) e apenas de demonstracao;
+//     em uso real, somente pessoas com a senha poderiam gerenciar
+// ============================================================
+
 #include <iostream>
 #include <vector>
 #include <cstdlib>
